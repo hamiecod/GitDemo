@@ -1,0 +1,36 @@
+"git config --global user.name"
+>> changes the username
+
+"git config --global.user.email"
+>>changes the email
+
+"git status"
+>> checks the git status of a folder
+
+"git init"
+>> makes a folder a git repository
+
+"git config --list"
+>> gives a list of commands
+
+"git add --a"
+>> adds all files to the git repository
+
+"git commit -m "name of the commit""
+>> commits all the changes
+important to write '-m' otherwise it will open editor
+
+"git log"
+>> displays all the commits including time and commit name
+
+"rm -r .git"
+>> deletes the git folder, no longer making the folder a git repository
+
+"git clone repositorylink.com nameofthefolderyouwanttokeep"
+>>gets the entire repository offline in your local pc
+
+"touch name.file"
+>>create a file
+
+the name of the files written in gitignore are ignored while staging and the .git folder
+if you want all .log files to be ignored add "*.log"
